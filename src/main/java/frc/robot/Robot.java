@@ -67,7 +67,7 @@ public class Robot extends TimedRobot {
       m_robotDrive.arcadeDrive(drive, steer);
     }
 
-    if (copilot. getRawButton(buttonB))
+    if (copilot.getRawButton(buttonB))
       hatchSolenoid.set(true);
     else 
       hatchSolenoid.set(false);
